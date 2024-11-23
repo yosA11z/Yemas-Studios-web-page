@@ -23,5 +23,5 @@ loginButton.addEventListener("click", (e) => {
     // Almacenar el nombre de usuario y redirigir
     localStorage.setItem("userName", validUser.name);
     alert(`Bienvenido ${validUser.name}`);
-    window.location.href = "index2.html";
+    window.location.href = "index.html";
 });
